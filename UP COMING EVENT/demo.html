@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Demo - DynaClone</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar" class="nav-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">dyna<span>clone</span></a>
+        </div>
+    </nav>
+
+    <section class="demo-section">
+        <div class="demo-container fade-in">
+            
+            <div id="form-box" class="form-box">
+                <h2>See DynaClone in action</h2>
+                <p class="subtitle">Fill out the form below and our team will be in touch.</p>
+                
+                <form id="demo-form">
+                    <div class="form-group">
+                        <label for="email">Business Email *</label>
+                        <input type="email" id="email" required placeholder="name@company.com">
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fname">First Name *</label>
+                            <input type="text" id="fname" required placeholder="Ex:Sudesi">
+                        </div>
+                        <div class="form-group">
+                            <label for="lname">Last Name *</label>
+                            <input type="text" id="lname" required  placeholder="Ex:S">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="job">Job Title *</label>
+                        <input type="text" id="job" required placeholder="Ex:Observability and Security">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" pattern="[0-9]+" title="Please enter numbers only" required placeholder="e.g. 1234567890">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company Name *</label>
+                        <input type="text" id="company" required placeholder="Ex:GCT Technology>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="country">Country/Region *</label>
+                        <select id="country" required>
+                            <option value="" disabled selected>Select a country</option>
+                            <option value="US">United States</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="CA">Canada</option>
+                            <option value="AU">Australia</option>
+                            <option value="IN">India</option>
+                            <option value="OTHER">Other</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Request Demo</button>
+                </form>
+            </div>
+
+            <div id="success-box" class="form-box hidden text-center">
+                <div class="success-icon">✓</div>
+                <h2>Thank you for your request!</h2>
+                <p class="subtitle" style="margin-bottom: 2rem;">We'll contact you shortly.</p>
+                <div class="divider"></div>
+                <p class="help-text">Still not sure?<br>Contact us and we’ll help you.</p>
+                <a href="index.html" class="btn btn-outline mt-4">Contact</a> 
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

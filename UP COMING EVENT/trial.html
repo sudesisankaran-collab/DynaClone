@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Trial - DynaClone</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="trial-body">
+
+    <nav id="navbar" class="nav-solid" style="border-bottom: none;">
+        <div class="nav-container">
+            <a href="index.html" class="logo">dyna<span>clone</span></a>
+        </div>
+    </nav>
+
+    <section class="trial-section fade-in">
+        <div class="trial-grid">
+            
+            <div class="trial-info">
+                <h1>Observability and Security <br><span class="text-gradient">for the Modern Enterprise</span></h1>
+                <p class="trial-desc">Get everything you need to build and run your apps, websites and services, including Firebase and the Google Maps API.</p>
+                
+                <div class="perk">
+                    <div class="perk-icon"><i class="fa-solid fa-gift"></i></div>
+                    <div class="perk-text">
+                        <h3>$300 in free credit</h3>
+                        <p>Try Google Cloud with $300 in credit to spend over the next 90 days.</p>
+                    </div>
+                </div>
+
+                <div class="perk">
+                    <div class="perk-icon"><i class="fa-solid fa-shield-check"></i></div>
+                    <div class="perk-text">
+                        <h3>No automatic charges</h3>
+                        <p>You only start paying if you decide to activate a full, pay-as-you-go account or choose to prepay. Any remaining free credit is yours to keep.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trial-form-container">
+                <div class="form-box">
+                    <h2>Try Google Cloud for free</h2>
+                    <p class="step-indicator">Step 1 of 2 <span class="font-600">Account Information</span></p>
+                    
+                    <div class="user-profile">
+                        <div class="avatar">S</div>
+                        <div class="form-group">
+                            <label for="fname">Email *</label>
+                            <input type="text" id="fname" required placeholder="Ex:name@gmail.com">
+                        </div>
+                    </div>
+
+                    <form id="trial-form">
+                        <div class="form-group">
+                            <label for="trial-country">Country</label>
+                            <select id="trial-country" required>
+                                <option value="India" selected>India</option>
+                                <option value="US">United States</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="CA">Canada</option>
+                                <option value="AU">Australia</option>
+                            </select>
+                        </div>
+
+                        <div class="terms-box">
+                            <label class="checkbox-container">
+                                <input type="checkbox" required>
+                                <span class="checkmark"></span>
+                                <p class="terms-text">
+                                    By using this application, you agree to the <a href="#">Google Cloud Platform</a>, <a href="#">Supplemental Free Trial</a>, and <a href="#">any applicable services and APIs</a> Terms of Service.
+                                </p>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full mt-4">Agree and continue</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

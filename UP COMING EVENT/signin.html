@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - DynaClone</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="navbar" class="nav-solid">
+        <div class="nav-container">
+            <a href="index.html" class="logo">dyna<span>clone</span></a>
+        </div>
+    </nav>
+
+    <section class="demo-section">
+        <div class="demo-container fade-in">
+            
+            <div class="form-box text-center">
+                <h2>Welcome back</h2>
+                <p class="subtitle">Sign in to your DynaClone account</p>
+                
+                <form id="signin-form" style="text-align: left;">
+                    <div class="form-group">
+                        <label for="login-email">Email Address</label>
+                        <input type="email" id="login-email" required placeholder="name@company.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="login-password">Password</label>
+                        <input type="password" id="login-password" required placeholder="••••••••">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-full">Sign In</button>
+                </form>
+
+                <div class="divider"></div>
+                
+                <p class="help-text">
+                    <a href="#" style="color: var(--primary); text-decoration: none;">Forgot your password?</a>
+                </p>
+                <p class="help-text mt-4" style="color: var(--text-muted);">
+                    Don't have an account? <a href="trial.html" style="color: white; font-weight: 600; text-decoration: none;">Start free trial</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
